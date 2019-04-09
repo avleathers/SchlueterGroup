@@ -8,7 +8,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,16 +34,6 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* Third image (Contact) */
-/* .bgimg-3 {
-  background-image: url("../images/curiosityblue.png");
-  min-height: 200px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
