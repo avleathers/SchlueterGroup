@@ -45,8 +45,8 @@ li {
 .card {
   margin-bottom: 25px;
   box-shadow: 2px 2px 2px 2px darkgray;
-  width: 350px;
-  height: 150px;
+  width: 200px;
+  height: 100px;
 }
 
 .w3-wide {letter-spacing: 10px;}
