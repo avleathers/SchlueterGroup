@@ -4,7 +4,8 @@ body, html {
   color: rgb(39, 38, 38);
   line-height: 1.8;
   scroll-behavior: smooth;
-  background-color: lightgray;
+  background-image: linear-gradient(to right, rgb(131, 140, 160) , rgb(216, 217, 218));
+  /* background-color: rgb(229, 240, 252); */
 }
 p {
   font-size: 20px;
@@ -32,16 +33,6 @@ li {
   background-size: cover;
 }
 
-/* Second image (Team) */
-.bgimg-2 {
-  background-image: url("../images/curiosityblue.jpg");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .card {
   margin-bottom: 25px;
   box-shadow: 2px 2px 2px 2px darkgray;
@@ -54,6 +45,10 @@ li {
 
 .w3-bar-item {
   float: right;
+}
+
+h3 {
+  font-weight: bolder;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
