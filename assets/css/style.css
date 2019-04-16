@@ -5,7 +5,6 @@ body, html {
   line-height: 1.8;
   scroll-behavior: smooth;
   background-image: linear-gradient(to right, rgb(131, 140, 160) , rgb(216, 217, 218));
-  /* background-color: rgb(229, 240, 252); */
 }
 p {
   font-size: 20px;
@@ -13,6 +12,7 @@ p {
 
 li {
   font-size: 18px;
+  list-style-type: square;
 }
 
 /* Create a Parallax Effect */
