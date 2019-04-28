@@ -34,6 +34,15 @@ li {
   background-size: cover;
 }
 
+/* .bgimg-2 {
+  background-image: url("../images/white.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 .card {
   margin-bottom: 25px;
   box-shadow: 2px 2px 2px 2px rgb(38, 43, 50);
@@ -42,6 +51,9 @@ li {
 }
 .w3-card {
   box-shadow: 2px 2px 2px 2px rgb(38, 43, 50);
+}
+.w3-third {
+  margin-bottom: 25px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -54,11 +66,53 @@ li {
 h1,h3,h5 {
   font-weight: bolder;
 }
+/* .w3-panel {
+  position: fixed;
+  padding-top: 20px;
+  padding: 5px;
+  width:800px;
+  top:50%;
+  left: 50%;
+  margin-left:-400px;
+  background-color: rgb(148, 26, 30);
+  color: whitesmoke;
+  text-align: center;
+  line-height: .75;
+} */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer {
+  position: absolute;
+  padding-top: 20px;
+  padding: 5px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(148, 26, 30);
+  color: whitesmoke;
+  text-align: center;
+  line-height: .75;
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
+  }
+}
+
+@media (max-width: 800px) { /* this has to be the same width as the div */
+  div {
+      margin-left:0;
+      left:0;
   }
 }
