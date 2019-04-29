@@ -16,6 +16,22 @@ li {
   list-style-type: square;
 }
 
+.w3-top {
+  background-color: white;
+}
+
+.navbar-brand {
+  margin-left: 15px; 
+  margin-top: 30px;
+}
+
+.logo-image{
+  width:25%;
+  height: 25%;
+  float: left;
+  position: relative;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2 {
   background-attachment: fixed;
@@ -28,7 +44,6 @@ li {
 .bgimg-1 {
   background-image: url("../images/CapitolInside.jpg");
   height: 100%;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,6 +57,11 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 } */
+
+.w3-padding-64 {
+  padding-top: 225px!important;
+  padding-bottom: 26px!important;
+}
 
 .card {
   margin-bottom: 25px;
@@ -66,19 +86,6 @@ li {
 h1,h3,h5 {
   font-weight: bolder;
 }
-/* .w3-panel {
-  position: fixed;
-  padding-top: 20px;
-  padding: 5px;
-  width:800px;
-  top:50%;
-  left: 50%;
-  margin-left:-400px;
-  background-color: rgb(148, 26, 30);
-  color: whitesmoke;
-  text-align: center;
-  line-height: .75;
-} */
 
 #page-container {
   position: relative;
@@ -107,12 +114,5 @@ footer {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
-  }
-}
-
-@media (max-width: 800px) { /* this has to be the same width as the div */
-  div {
-      margin-left:0;
-      left:0;
   }
 }
