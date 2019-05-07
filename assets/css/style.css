@@ -33,30 +33,15 @@ li {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* First image (Full height) */
 .bgimg-1 {
   background-image: url("../images/CapitolInside.jpg");
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* .bgimg-2 {
-  background-image: url("../images/white.jpg");
-  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 .w3-padding-64 {
   padding-top: 225px!important;
@@ -90,24 +75,42 @@ h1,h3,h5 {
 #page-container {
   position: relative;
   min-height: 100vh;
+  padding-bottom: 50vh;
 }
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   padding-top: 20px;
   padding: 5px;
   left: 0;
-  right: 0;
   bottom: 0;
   width: 100%;
   background-color: rgb(148, 26, 30);
   color: whitesmoke;
   text-align: center;
-  line-height: .75;
+  line-height: .75em;
 }
+
+/* ---------------------
+   Services Page
+   ---------------------*/
+
+   .services-card {
+     padding: 10px;
+     height: 200px;
+   }
+
+   .services-card h6 {
+     margin: 10px 0;
+   }
+
+   .services-card img {
+    width: 50px;
+  }
+
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
