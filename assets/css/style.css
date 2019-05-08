@@ -57,9 +57,9 @@ li {
 .w3-card {
   box-shadow: 2px 2px 2px 2px rgb(38, 43, 50);
 }
-.w3-third {
+/* .w3-third {
   margin-bottom: 25px;
-}
+} */
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
