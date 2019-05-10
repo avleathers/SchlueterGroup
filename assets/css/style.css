@@ -1,3 +1,28 @@
+/* ---------------------------
+  Header - Jumbotron All Pages
+  ---------------------------- */
+  .w3-top {
+    background-color: white;
+    max-height: 100px;
+  }
+  
+  .navbar-nav {
+    margin-top: 20px;
+    width: 30%;
+    height: 15%;
+    text-align: right;
+  }
+  
+  .logo-image{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:15%;
+    height: 15%;
+    float: left;
+    position: relative;
+  }  
+
 body,h1,h2,h3,h4,h5,h6,p {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
@@ -16,21 +41,6 @@ li {
   list-style-type: square;
 }
 
-.w3-top {
-  background-color: white;
-}
-
-.navbar-brand {
-  margin-left: 15px; 
-  margin-top: 30px;
-}
-
-.logo-image{
-  width:25%;
-  height: 25%;
-  float: left;
-  position: relative;
-}
 
 /* Create a Parallax Effect */
 /* First image (Full height) */
