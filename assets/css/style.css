@@ -1,5 +1,5 @@
 /* ---------------------------
-  Header - Jumbotron All Pages
+  Nav Bar and Logo All Pages
   ---------------------------- */
   .w3-top {
     background-color: white;
@@ -30,8 +30,8 @@ body, html {
   line-height: 1.8;
   scroll-behavior: smooth;
   background-color:whitesmoke;
-  /* background-image: linear-gradient(to right, rgb(131, 140, 160) , rgb(216, 217, 218)); */
 }
+
 p {
   font-size: 20px;
 }
@@ -53,25 +53,30 @@ li {
   background-size: cover;
 }
 
+/* Overwriting the W3-padding-64 on the card - all pages */
+
 .w3-padding-64 {
-  padding-top: 225px!important;
+  padding-top: 100px!important;
   padding-bottom: 26px!important;
 }
 
+
+/* ----------------------------
+   Services and Expertise pages
+   ---------------------------- */
 .card {
   margin-bottom: 25px;
-  box-shadow: 2px 2px 2px 2px rgb(38, 43, 50);
+  box-shadow: 2px 2px 2px 2px rgb(148, 26, 30);
   width: 200px;
   height: 100px;
 }
+
 .w3-card {
-  box-shadow: 2px 2px 2px 2px rgb(38, 43, 50);
+  box-shadow: 2px 2px 2px 2px rgb(148, 26, 30);
 }
-/* .w3-third {
-  margin-bottom: 25px;
-} */
 
 .w3-wide {letter-spacing: 10px;}
+
 .w3-hover-opacity {cursor: pointer;}
 
 .w3-bar-item {
@@ -88,20 +93,7 @@ h1,h3,h5 {
   padding-bottom: 50vh;
 }
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
-
-footer {
-  position: fixed;
-  padding-top: 20px;
-  padding: 5px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(148, 26, 30);
-  color: whitesmoke;
-  text-align: center;
-  line-height: .75em;
+  padding-bottom: 2.5rem; 
 }
 
 /* ---------------------
@@ -119,6 +111,16 @@ footer {
 
    .services-card img {
     width: 50px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(148, 26, 30);
+    color: whitesmoke;
+    text-align: center;
+    line-height: .75em;
   }
 
 
