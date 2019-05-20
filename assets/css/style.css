@@ -1,34 +1,36 @@
 /* ---------------------------
-  Nav Bar and Logo All Pages
+  Nav Bar and Logo on All Pages
   ---------------------------- */
-  .w3-top {
-    background-color: white;
-    max-height: 100px;
-  }
-  
-  .navbar-nav {
-    margin-top: 20px;
-    width: 30%;
-    height: 15%;
-    text-align: right;
-  }
-  
-  .logo-image{
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width:15%;
-    height: 15%;
-    float: left;
-    position: relative;
-  }  
+.w3-top {
+  background-color: white;
+  max-height: 100px;
+}
 
+.navbar-nav {
+  margin-top: 20px;
+  width: 30%;
+  height: 15%;
+  text-align: right;
+}
+
+.logo-image{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:15%;
+  height: 15%;
+  float: left;
+  position: relative;
+}  
+
+/* ---------------------
+  All Pages
+  --------------------- */
 body,h1,h2,h3,h4,h5,h6,p {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
   color: rgb(12, 12, 12);
   line-height: 1.8;
-  scroll-behavior: smooth;
   background-color:whitesmoke;
 }
 
@@ -36,12 +38,23 @@ p {
   font-size: 20px;
 }
 
-li {
-  font-size: 18px;
-  list-style-type: square;
+.w3-padding-64 {
+  padding-top: 100px!important;
+  padding-bottom: 26px!important;
 }
 
+.w3-content {
+  max-width:900px;
+}
 
+.w3-tag {
+  letter-spacing: 3px; 
+  font-variant: small-caps;
+}
+
+/* ----------------
+   Home Page
+   ---------------- */
 /* Create a Parallax Effect */
 /* First image (Full height) */
 .bgimg-1 {
@@ -53,13 +66,50 @@ li {
   background-size: cover;
 }
 
-/* Overwriting the W3-padding-64 on the card - all pages */
-
-.w3-padding-64 {
-  padding-top: 100px!important;
-  padding-bottom: 26px!important;
+.w3-wide {
+  letter-spacing: 10px;
 }
 
+.w3-animate-opacity {
+  padding: 200px; 
+  width: 100%; 
+  text-align: center;
+}
+
+#advocacy {
+  margin-top: 100px; 
+  padding: 10px; 
+  letter-spacing: 6px; 
+  font-variant: small-caps;
+  background-color: black;
+  color: whitesmoke; 
+  text-align: center;
+}
+
+#statement {
+  text-align: center;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  margin: 55px 10%; 
+  background-color: rgb(148, 26, 30); 
+  color: whitesmoke; 
+  text-align: center;
+}
+
+/* --------------------------------------------------------
+   Team, Stan Schlueter, Brad Schlueter, Cathy DeWitt pages
+   -------------------------------------------------------- */
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------
+  Stan Schlueter, Brad Schlueter, Cathy DeWitt pages
+   -------------------------------------------------------- */
+li {
+  font-size: 18px;
+  list-style-type: square;
+}
 
 /* ----------------------------
    Services and Expertise pages
@@ -74,10 +124,6 @@ li {
 .w3-card {
   box-shadow: 2px 2px 2px 2px rgb(148, 26, 30);
 }
-
-.w3-wide {letter-spacing: 10px;}
-
-.w3-hover-opacity {cursor: pointer;}
 
 .w3-bar-item {
   float: right;
@@ -98,36 +144,41 @@ h1,h3,h5 {
 
 /* ---------------------
    Services Page
-   ---------------------*/
+  --------------------- */
+.services-card {
+  padding: 10px;
+  height: 200px;
+}
 
-   .services-card {
-     padding: 10px;
-     height: 200px;
-   }
+.services-card h5 {
+  margin: 10px 0;
+}
 
-   .services-card h6 {
-     margin: 10px 0;
-   }
+.services-card img {
+width: 50px;
+}
 
-   .services-card img {
-    width: 50px;
-  }
+/* ---------------------
+   Expertise Page
+  --------------------- */
+  
+.expertise-card h5 {
+  margin: 10px 0;
+}
 
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(148, 26, 30);
-    color: whitesmoke;
-    text-align: center;
-    line-height: .75em;
-  }
+.expertise-card img {
+width: 50px;
+}
 
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
+/* ---------------------
+  Footer - All Pages
+  --------------------- */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(148, 26, 30);
+  color: whitesmoke;
+  text-align: center;
+  line-height: .75em;
 }
