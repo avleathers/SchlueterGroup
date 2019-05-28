@@ -2,7 +2,7 @@
   Nav Bar and Logo on All Pages
   ---------------------------- */
 .w3-top {
-  background-color: white;
+  background-color: whitesmoke;
   max-height: 100px;
 }
 
@@ -26,7 +26,7 @@
 /* ---------------------
   All Pages
   --------------------- */
-body,h1,h2,h3,h4,h5,h6,p {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6,p, ul {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
   color: rgb(12, 12, 12);
@@ -69,16 +69,6 @@ p {
   background-size: cover;
 }
 
-/* .bgimg-2 {
-  background-image: url("../images/texasflag.jpg");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.2;
-} */
-
 .w3-wide {
   letter-spacing: 10px;
 }
@@ -97,7 +87,43 @@ p {
   background-color: black;
   color: whitesmoke; 
   text-align: center;
+  animation-duration: 4s;
 }
+
+#statement {
+  text-align: center;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  margin: 55px 10%; 
+  background-color: rgb(148, 26, 30); 
+  color: whitesmoke; 
+  text-align: center;
+}
+
+/* ------
+   About
+------ */
+
+.box {
+  width: 15%;
+  height: 20%;
+  color: rgb(12, 12, 12);
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  border: double;
+}
+
+#one {
+  margin-left: 20px;
+  margin-top: 10%;
+  position: fixed;
+  top: 80px;
+  left: 10px;
+  background: whitesmoke;
+}
+
 
 /* --------------------------------------------------------
    Team, Stan Schlueter, Brad Schlueter, Cathy DeWitt pages
@@ -114,16 +140,8 @@ li {
   list-style-type: square;
 }
 
-/* ------
-   About
-   ------ */
-
-   .statement {
-     text-align: center;
-   }
-
 /* ----------------------------
-   Services and Expertise pages
+   Expertise page
    ---------------------------- */
 .card {
   margin-bottom: 25px;
@@ -159,43 +177,47 @@ h5 {
   padding-bottom: 2.5rem; 
 }
 
-/* ---------------------
-   Services Page
-  --------------------- */
-.services-card {
-  padding: 10px;
+.w3-third {
+  width: 225px;
   height: 200px;
+  margin: 30px;
 }
-
-.services-card h5 {
-  margin: 10px 0;
-}
-
-.services-card img {
-width: 50px;
-}
-
-/* ---------------------
-   Expertise Page
-  --------------------- */
- .w3-third {
-   width: 225px;
-   height: 200px;
-   margin: 30px;
- }
 
 .expertise-card {
-  margin-bottom: 25px;
-  box-shadow: 2px 2px 2px 2px rgb(148, 26, 30);
+ margin-bottom: 25px;
+ box-shadow: 2px 2px 2px 2px rgb(148, 26, 30);
 }
 .expertise-card h5 {
-  margin: 10px 0;
+ margin: 10px 0;
 }
 
 .expertise-card img {
 width: 50px;
 }
 
+
+/* ---------------------
+   Services Page
+  --------------------- */
+  ul {
+    background:  rgb(148, 26, 30);
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  ul li {
+    background: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+
+/* ---------------------
+   Expertise Page
+  --------------------- */
+ 
 /* ---------------------
   Footer - All Pages
   --------------------- */
