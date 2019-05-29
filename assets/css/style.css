@@ -199,14 +199,14 @@ width: 50px;
 /* ---------------------
    Services Page
   --------------------- */
-  ul {
+  .w3-ul {
     background:  rgb(148, 26, 30);
     padding: 20px;
     margin-left: 200px;
     margin-right: 200px;
   }
-  
-  ul li {
+
+  .w3-padding-small {
     background: whitesmoke;
     margin: 10px;
     padding: 10px;
