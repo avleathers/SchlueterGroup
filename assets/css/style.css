@@ -14,14 +14,19 @@
 }
 
 .logo-image{
+  box-sizing: border-box;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  width:15%;
-  height: 15%;
+  width:250px;
   float: left;
   position: relative;
-}  
+}
+
+#navDemo {
+  background-color: whitesmoke;
+  width: 20%;
+}
 
 /* ---------------------
   All Pages
@@ -105,23 +110,24 @@ p {
 ------ */
 
 .box {
-  width: 15%;
-  height: 15%;
+  box-sizing: border-box;
+  width: 20%;
   color: rgb(12, 12, 12);
   text-align: center;
   font-weight: bold;
   font-style: italic;
   font-size: 18px;
-  border: double;
+  border: solid;
 }
 
 #one {
   margin-left: 20px;
-  margin-top: 10%;
-  position: fixed;
+  margin-top: 10px;
+  position: absolute;
   top: 80px;
   left: 10px;
   background: whitesmoke;
+  padding: 3px;
 }
 
 
@@ -177,12 +183,6 @@ h5 {
   padding-bottom: 2.5rem; 
 }
 
-.w3-third {
-  width: 225px;
-  height: 200px;
-  margin: 30px;
-}
-
 .expertise-card {
  margin-bottom: 25px;
  box-shadow: 2px 2px 2px 2px rgb(148, 26, 30);
@@ -201,19 +201,17 @@ width: 50px;
   --------------------- */
   .w3-ul {
     background:  rgb(148, 26, 30);
-    padding: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 10%;
   }
 
   .w3-padding-small {
     background: whitesmoke;
     margin: 10px;
     padding: 10px;
-    margin-left: 25px;
     font-size: 20px;
+    list-style-type: none;
   }
-
+    
 /* ---------------------
    Expertise Page
   --------------------- */
@@ -228,6 +226,6 @@ footer {
   background-color: rgb(148, 26, 30);
   color: whitesmoke;
   text-align: center;
-  padding-top: 15px; 
-  padding-bottom: 15px;
+  padding-top: 2px; 
+  padding-bottom: 2px;
 }
