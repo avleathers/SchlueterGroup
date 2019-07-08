@@ -28,6 +28,22 @@
   width: 25%;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 /* ---------------------
   All Pages
   --------------------- */
@@ -111,18 +127,18 @@ p {
 
 .box {
   box-sizing: border-box;
-  width: 20%;
+  width: 15%;
   color: rgb(12, 12, 12);
   text-align: center;
   font-weight: bold;
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   border: solid;
 }
 
 #one {
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 8%;
+  margin-top: 8%;
   position: absolute;
   top: 80px;
   left: 10px;
@@ -182,7 +198,11 @@ h5 {
 #content-wrap {
   padding-bottom: 2.5rem; 
 }
-
+    
+/* ---------------------
+   Expertise Page
+  --------------------- */
+ 
 .expertise-card {
  margin-bottom: 25px;
  box-shadow: 2px 2px 2px 2px rgb(148, 26, 30);
@@ -201,7 +221,7 @@ width: 50px;
   --------------------- */
   .w3-ul {
     background:  rgb(148, 26, 30);
-    padding: 10%;
+    padding: 3%;
   }
 
   .w3-padding-small {
@@ -211,11 +231,7 @@ width: 50px;
     font-size: 20px;
     list-style-type: none;
   }
-    
-/* ---------------------
-   Expertise Page
-  --------------------- */
- 
+
 /* ---------------------
   Footer - All Pages
   --------------------- */
